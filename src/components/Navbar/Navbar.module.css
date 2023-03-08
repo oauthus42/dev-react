@@ -10,3 +10,11 @@
   .active {
     color: gold;
   }
+
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: #d4d4d4;
+    
+  }

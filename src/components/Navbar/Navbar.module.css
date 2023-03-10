@@ -1,20 +1,21 @@
 .nav {
-    grid-area: n;
-    background-color: #1e4a3c;
-  }
+  grid-area: n;
+  background-color: #1e4a3c;
+  padding: 10px;
+}
 
-  .item {
-    color: #fff;
-  }
+.item {
+  color: #fff;
+}
 
-  .active {
-    color: gold;
-  }
+a {
+  text-decoration: none;
+}
 
-  a {
-    text-decoration: none;
-  }
-  a:visited {
-    color: #d4d4d4;
-    
-  }
+a:visited {
+  color: #d4d4d4;
+}
+
+.active {
+  color: gold;
+}

@@ -5,8 +5,8 @@ console.log(s);
 const Navbar = () => {
     return (
         <nav className={s.nav}>
-            <div className={`${s.item} ${s.active}`}>
-                <NavLink to="/profiles">Profile</NavLink>
+            <div className={s.item}>
+                <NavLink to="/profiles" activeStyle={{ color: 'red' }}>Profile</NavLink>
             </div>
             <div className={s.item}>
                 <NavLink to="/dialogs">Messages</NavLink>

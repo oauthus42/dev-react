@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <div>
       <div>
-        <img src='https://catherineasquithgallery.com/uploads/posts/2021-12/thumbs/1639732741_62-catherineasquithgallery-com-p-rozovii-fon-dlya-kanala-99.jpg'></img>
+        <img src='https://i.pinimg.com/originals/a4/2b/1f/a42b1f99d2873b605629e175238b21f6.jpg'></img>
       </div>
 
       <div>ava + description</div>

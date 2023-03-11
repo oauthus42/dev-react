@@ -1,20 +1,29 @@
 .nav {
   grid-area: n;
-  background-color: #1e4a3c;
   padding: 10px;
+  text-align: center;
 }
 
 .item {
-  color: #fff;
+  padding: 5px;
+}
+
+.item:hover {
+  background-color: #ffffff;
+  border-radius: 30px;
 }
 
 a {
   text-decoration: none;
+  color: #606060;
+  background-color: transparent;
+  
 }
 
 a:visited {
-  color: #d4d4d4;
+  color: #606060;
 }
+
 
 .active {
   color: gold;

@@ -3,9 +3,14 @@ import Post from './Post/Post';
 
 const MyPosts = () => {
   return (
-    <div>
+    <div className={s.postsWrap}>
+      <h2>My posts</h2>
+      <div>
       <textarea></textarea>
+      </div>
+      <div>
       <button>Add post</button>
+      </div>
       <div className={s.posts}>
         <Post message = 'Hi, how are you?' />
         <Post message = "It's my first post" />

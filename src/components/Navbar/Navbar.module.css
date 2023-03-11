@@ -11,6 +11,7 @@
 .item:hover {
   background-color: #ffffff;
   border-radius: 30px;
+  box-shadow: 5px 5px 35px -13px rgb(105 28 106 / 28%) inset;
 }
 
 a {

@@ -9,9 +9,9 @@ let state = {
 
     dialogsPages: {
         dialogs: [
-            { id: '1', name: 'Polina' },
-            { id: '2', name: 'Sasha' },
-            { id: '3', name: 'Andrey' }
+            { id: '1', name: 'Polina', avatar: 'https://i.pinimg.com/75x75_RS/c5/0e/24/c50e24ba9836d8584fe7023489388bcb.jpg' },
+            { id: '2', name: 'Sasha', avatar: 'https://p.kindpng.com/picc/s/736-7367385_cat-circle-cat-icon-png-transparent-png.png' },
+            { id: '3', name: 'Andrey', avatar: 'https://cs8.pikabu.ru/avatars/2317/x2317513-1017058689.png' }
         ],
 
         messages: [

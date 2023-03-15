@@ -1,0 +1,13 @@
+.my_flex_cont {
+  display: flex;
+  height: 100px;
+ }
+ .my_flex_box {
+  margin: 5px;
+  padding: 5px;
+  flex: 0 1 auto;
+ }
+
+  .avatar {
+    width: 40px;
+  }

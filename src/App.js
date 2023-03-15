@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import News from './components/News/News';
 import Settings from './components/Settings/Settings';
 import Music from './components/Music/Music';
+import Friends from './components/Navbar/Friends/Friends';
 
 const App = (props) => {
   return (
@@ -22,9 +23,11 @@ const App = (props) => {
             <Route path="news" element={<News />} />
             <Route path="music" element={<Music />} />
             <Route path='settings' element={<Settings />} />
+            <Route path='friends' element={<Friends state={props.state.dialogsPages} />} />
           </Routes>
         </div>
       </Router>
+      <Friends state={props.state.dialogsPages} />
     </div >
   );
 }

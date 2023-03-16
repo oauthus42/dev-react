@@ -4,11 +4,11 @@ import Post from './Post/Post';
 
 const MyPosts = (props) => {
   let posts = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} />);
-
+debugger;
 let refTextNewPost = React.createRef();
 let textNewPost = () => {
   let text = refTextNewPost.current.value;
-  alert (text)
+   props.addPost(text);
 }
 
   return (

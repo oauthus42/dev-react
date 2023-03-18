@@ -28,7 +28,7 @@ let state = {
         id: 5,
         message: postMessage,
         likesCount: 0
-    }
+    };
     
     state.profilePages.posts.push(newPost);
 }
